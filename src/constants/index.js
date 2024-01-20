@@ -1077,7 +1077,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-  name: "Parth Mittal",
+  name: "Bill Ochieng",
   tagLine: "MTS Intern @Oracle | ETHIndia'22 Winner | 8x Hackathon Winner | Tech Lead @IRIS, NITK | Co-Chair @GDSC, NITK",
   intro: "Student web-developer from India who is either busy improving his craft or pondering over the next big idea."
 }
