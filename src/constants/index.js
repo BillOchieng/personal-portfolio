@@ -91,11 +91,11 @@ export const callToAction = "https://www.linkedin.com/in/mittal-parth";
 export const navLinks = [
   {
     id: "skills",
-    title: "Skills & Experience",
+    title: "Skills & Experiences",
   },
   {
     id: "education",
-    title: "Education",
+    title: "Educations",
   },
   {
     id: "projects",
@@ -119,11 +119,11 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "Allegheny College",
+    degree: "Bachelor of Science",
+    duration: "January 2021 - May 2024",
+    content1: "Major 1: Computer Science",
+    content2: "Minor 2: Economics",
   },
 ];
 
@@ -1077,7 +1077,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "MTS Intern @Oracle | ETHIndia'22 Winner | 8x Hackathon Winner | Tech Lead @IRIS, NITK | Co-Chair @GDSC, NITK",
-    intro: "Student web-developer from India who is either busy improving his craft or pondering over the next big idea."
+  name: "Parth Mittal",
+  tagLine: "MTS Intern @Oracle | ETHIndia'22 Winner | 8x Hackathon Winner | Tech Lead @IRIS, NITK | Co-Chair @GDSC, NITK",
+  intro: "Student web-developer from India who is either busy improving his craft or pondering over the next big idea."
 }
