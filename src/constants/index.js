@@ -83,7 +83,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1kJawvs7rvfLmcMM0TYuw1BR9tYzQg6Ma/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1kJawvs7rvfLmcMM0TYuw1BR9tYzQg6Ma/view?usp=sharing";
 export const repoLink = "https://github.com/BillOchieng/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/bill-ochieng-7230a3215/";
@@ -224,7 +224,7 @@ export const skills = [
       {
         id: "f-8",
         icon: SiDotnet,
-        name: ".NET",
+        name: "Tableau",
       },
     ],
   },
