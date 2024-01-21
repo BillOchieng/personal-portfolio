@@ -83,10 +83,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1wkPu9i_e2uAdHmbqe0hEM9BfBheJfxkT/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1kJawvs7rvfLmcMM0TYuw1BR9tYzQg6Ma/view?usp=drive_link";
+export const repoLink = "https://github.com/BillOchieng/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/bill-ochieng-7230a3215/";
 
 export const navLinks = [
   {
