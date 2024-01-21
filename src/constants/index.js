@@ -907,32 +907,27 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BZSWg6DjLRZOQv9OUqDcvcQ%3D%3D",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/BillOchieng",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "mailto:ochieng01@allegheny.edu",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/billke_/",
   },
 ];
 
 export const aboutMe = {
   name: "Bill Ochieng",
-  tagLine: "Tech & IT Intern @ Allegheny College | Computer Scientist | Economist | Technical Leader - Data Exploration | Finance",
+  tagLine: "Tech & IT Intern @Allegheny College | Computer Scientist | Economist | Technical Leader - Data Exploration | Finance",
   intro: "Student Data Analyst, Software Engineer, Finance enthusiast and web-developer from Allegheny College who is in love with data, finance and tech and is always working on improving his craft or pondering over the next big idea."
 }
