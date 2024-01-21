@@ -120,10 +120,10 @@ export const educationList = [
     id: "education-1",
     icon: nitk,
     title: "Allegheny College",
-    degree: "Bachelor of Science",
+    degree: "Bachelor of Science: Double Major",
     duration: "January 2021 - May 2024",
     content1: "Major 1: Computer Science",
-    content2: "Minor 2: Economics",
+    content2: "Major 2: Economics",
   },
 ];
 
@@ -134,7 +134,7 @@ export const skills = [
       {
         id: "pl-1",
         icon: SiCplusplus,
-        name: "C++",
+        name: "Stata",
       },
       {
         id: "pl-2",
@@ -144,7 +144,7 @@ export const skills = [
       {
         id: "pl-3",
         icon: DiRuby,
-        name: "Ruby",
+        name: "Excel",
       },
       {
         id: "pl-4",
@@ -169,12 +169,17 @@ export const skills = [
       {
         id: "pl-8",
         icon: SiSolidity,
-        name: "Solidity",
+        name: "R",
+      },
+      {
+        id: "pl-2",
+        icon: SiPython,
+        name: "NO SQL",
       },
       {
         id: "pl-9",
         icon: DiJava,
-        name: "Java",
+        name: "SQL",
       },
     ],
   },
@@ -234,7 +239,7 @@ export const skills = [
       {
         id: "t-2",
         icon: SiPostman,
-        name: "Postman",
+        name: "Docker",
       },
       {
         id: "t-3",
@@ -272,16 +277,16 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Technical Leader, Data Exploration - CIS Department, Allegheny College",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://www.cis.allegheny.edu/teaching/technicalleaders/",
     positions: [
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
+        title: "Technical Leader, Data Exploration",
+        duration: "January 2024 - Present",
         content: [
           {
-            text: "Working as part of the Exa-CC team building Oracle Database as a service.",
+            text: "Participate in weekly lab sessions, directing students through hands-on activities in data collection, analysis, visualization, and interpretation, utilizing advanced software tools Guide students on utilizing data analytics tools for website performance analysis, focusing on extracting insights about user engagement and behavior patterns Collaborate closely with the course professor to monitor and address GitHub issues, ensuring the smooth progression of course projects and optimizing the learning experience",
             link: "",
           },
         ],
@@ -289,16 +294,33 @@ export const experiences = [
     ],
   },
   {
-    organisation: "IRIS, NITK",
+    organisation: "Health Insurance Agent - Aflac Inc, Ohio	",
+    logo: oracle,
+    link: "https://www.cis.allegheny.edu/teaching/technicalleaders/",
+    positions: [
+      {
+        title: "Technical Leader, Data Exploration",
+        duration: "January 2024 - Present",
+        content: [
+          {
+            text: "Completed one-month coursework and training to become a certified insurance agent in Ohio Participated in hands-on training to learn key skills for insurance sales, including prospecting, needs analysis, and closing techniques Utilized social and business networking skills to help CEOs, business owners, and HR managers determine which programs best suit their employees.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Tech & IT Intern - Residential Life, Allegheny College  ",
     logo: iris,
     link: "https://iris.nitk.ac.in/about_us",
     positions: [
       {
         title: "Tech Lead",
-        duration: "Apr 2023 - Present",
+        duration: "Fall 2023-Present",
         content: [
           {
-            text: "Leading a team of 40+ students driving a digital transformation at NITK.",
+            text: "Assist in comprehensive enhancements of on-campus digital connectivity, ensuring all 8 residential halls have Wi-Fi access and the housing selection platform is up to date, significantly improving students' daily online and living experiences Initiate and advocate for programs that nurture diversity and inclusion, while also strategizing tech-enabled safety measures, ensuring a secure, supportive, and cohesive residential environment Serve as the pivotal tech figure for the Residence Life team, providing immediate IT assistance, managing backend database operations, and steering technology projects that contribute to a modern, efficient, and engaging campus habitat.",
             link: "",
           },
         ],
@@ -308,7 +330,7 @@ export const experiences = [
         duration: "Apr 2022 - Present",
         content: [
           {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
+            text: "check ..Managing a team of 6 student developers while also overlooking multiple modules.",
             link: "",
           },
         ],
@@ -336,13 +358,13 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Career Development Centre, NITK",
+    organisation: "Summer Research Intern - Advise-A-Gator, Allegheny College",
     logo: cdc,
     link: "https://cdc.nitk.ac.in/",
     positions: [
       {
         title: "Lead Developer",
-        duration: "May 2022 - July 2022",
+        duration: "May 2023-August 2023",
         content: [
           {
             text: "Led a team of 3 developers and developed various parts of the official public website using Ruby on Rails.",
@@ -374,174 +396,7 @@ export const openSourceContributions = [
     linesAdded: "101",
     linesDeleted: "48",
   },
-  {
-    id: "os-2",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "Combine templates for email digest and settings digest",
-    link: "https://github.com/publiclab/plots2/pull/10681",
-    number: "#10681",
-    date: "Feb 9 2022",
-    linesAdded: "86",
-    linesDeleted: "106",
-  },
-  {
-    id: "os-3",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "Fix reverse chronological sorting on inline grids",
-    link: "https://github.com/publiclab/plots2/pull/11114",
-    number: "#11114",
-    date: "May 4 2022",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-4",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "style: Make post page footer responsive",
-    link: "https://github.com/publiclab/plots2/pull/10634",
-    number: "#10634",
-    date: "Feb 24 2022",
-    linesAdded: "64",
-    linesDeleted: "8",
-  },
-  {
-    id: "os-5",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Typos in Translation_System.md",
-    link: "https://github.com/publiclab/plots2/issues/11120",
-    number: "#11120",
-    date: "May 6 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-6",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translations on layouts/_header.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/11115",
-    number: "#11115",
-    date: "May 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-7",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translation of 'This is part of' on _tagging.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10986",
-    number: "#10986",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-8",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Wrong closing heading tag in _digest.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10985",
-    number: "#10985",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-9",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Add class to center wiki.scraped_image in wikis template",
-    link: "https://github.com/publiclab/plots2/issues/10797",
-    number: "#10797",
-    date: "Mar 18 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-10",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Images on /wiki are not center aligned",
-    link: "https://github.com/publiclab/plots2/issues/10755",
-    number: "#10755",
-    date: "Mar 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-11",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-12",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-13",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "authentication: Fix placeholder realms for redirects.",
-    link: "https://github.com/zulip/zulip/pull/19689",
-    number: "#19689",
-    date: "Sep 9 2021",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
+
   {
     id: "os-14",
     organisation: "Zulip",
@@ -1078,6 +933,6 @@ export const socialMedia = [
 
 export const aboutMe = {
   name: "Bill Ochieng",
-  tagLine: "MTS Intern @Oracle | ETHIndia'22 Winner | 8x Hackathon Winner | Tech Lead @IRIS, NITK | Co-Chair @GDSC, NITK",
-  intro: "Student web-developer from India who is either busy improving his craft or pondering over the next big idea."
+  tagLine: "Tech & IT Intern @ Allegheny College | Computer Scientist | Economist | Technical Leader - Data Exploration | Finance",
+  intro: "Student Data Analyst, Software Engineer, Finance enthusiast and web-developer from Allegheny College who is in love with data, finance and tech and is always working on improving his craft or pondering over the next big idea."
 }
